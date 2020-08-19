@@ -8,7 +8,7 @@ library(stringi)
 library(dplyr)
 
 #All datafiles listed
-data_shannon_files <-list.files(path ="Output/",pattern="*shannon_by_region.csv",full.names = TRUE)
+data_shannon_files <-list.files(path ="Output",pattern="*shannon_by_region.csv",full.names = TRUE)
 data_gini_simpson_files <- list.files(path="Output",pattern="*gini_simpson_by_region.csv",full.names = TRUE)
 data_uncorrected_p_dist_files <- list.files(path="Output",pattern="*p_dist_by_region.csv",full.names = TRUE)
 
