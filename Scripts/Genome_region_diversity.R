@@ -3,6 +3,9 @@
 #analysis by wilcoxon test(non-parametric) whether the median is
 #different between the spontaneous clears and progressors
 
+#Required to generate plots and carry out statistics
+library(ggpubr)
+
 #Diversity measurment data
 data_shannon <-read.csv("Data/shannon_entropy_genome_regions.csv")
 data_gini_simpson <- read.csv("Data/gini_simpson_genome_regions.csv")
